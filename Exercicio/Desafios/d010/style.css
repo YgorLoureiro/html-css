@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype'); 
+}
+header {
+    font-family: 'idroid' ,Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-image: linear-gradient(to bottom, #31B06A,#289758, #1A5C38);
+    width: auto;
+    height: auto;
+    display: flow-root;
+}
+
+body {
+    text-align: center;
+    background-color: #84E1AD;
+    padding: auto;
+   margin: 0px;
+   display: grid;
+}
+
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+ 
+    font-style: normal;
+    padding: 15px;
+    color: white;
+}
+nav {
+    text-align: left;
+    padding: 3px;
+}
+nav> a {
+    text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: white;
+margin: 3px;
+}
+
+nav> a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: auto;
+ width: 1000px;
+ height: auto;
+     background-color:white;
+   }
+main> h1 {
+    color: #1D5E3A ;
+text-align: left;
+margin-left: 10px;
+font-family: 'idroid',Arial, Helvetica, sans-serif;
+}
+h1#secundario {
+    background-image: linear-gradient(to right, #C8ECD8,#DCF3E6,#ffffff);
+      color: #1D5E3A; 
+      line-height: 24px;
+      text-indent: 10px;
+}
+
+main> p {
+    line-height: 24px;
+    text-indent: 10px;
+     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-left: 10px;
+    padding: 10px;
+}
+main> a {
+ text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: #1D5E3A;
+margin: 3px;
+}
+main> a:hover {
+    text-decoration: underline;
+}
+picture.video {
+background-color: #1A5C38;
+
+}
+aside {
+    text-align: left;
+    background-color: #2FA866;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: auto;
+    height: auto;
+    color: white;
+    line-height: 24px;
+    text-indent: 10px;
+  border-radius: 5px;  
+   
+}
+aside#texto {
+    color: black;
+    background-color: #C5EBD6;
+    line-height: 24px;
+    text-indent: 10px;
+     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-left: 10px;
+    padding: 10px;
+}
+article> ul.segundalista {
+    display: inline;
+    margin-left: 20px;
+    font-size: 15px;
+    position: relative;
+    float: right;
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+h1, h2{
+   font-family: serif
+}
+body {
+    /*Medidas Absolutas
+    cm ; mn; in; px; pt; pc
+
+Medidas relativas
+em, ex, rem, vw, vh
+geralmente 16px = 1em
+recomendação oficial = px, em
+font-weight: 100;
+*/
+
+font-size: 1.2em ;
+    text-align: justify;
+font-family:'Times New Roman', Times, serif
+
+/*shorthand font
+- font style, font weight, font size, font family
+*/
+}
+h2 {
+
+    font: italic bold 1.6em 'Times New Roman'
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Valentine' ;
+            src: url(Valentine.otf) format('opentype'), url(Valentine.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - opentype (otf)
+            truetype (ttf)
+            embedded-opentype
+            truetype.aat (apple advanced typography)
+            svg
+            */
+        }
+        @font-face {
+            font-family: 'kaushan';
+            src: url(KaushanScript-Regular.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+body {
+
+    font-family: 'kaushan',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+h1 {
+
+    font-family: 'Valentine','Times New Roman', Times, serif;
+    font-size: 4em;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, facilis quibusdam minus fugiat voluptatum tempore labore praesentium eius voluptatibus, porro velit? Atque perspiciatis quis accusamus nisi ipsum cumque asperiores aspernatur.</p>
+</body>
+</html>
